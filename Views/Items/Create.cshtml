@@ -1,0 +1,44 @@
+﻿@model Item
+
+<div class="form-container container mt-5">
+	<div class="form-head text-center">
+		<h2 class="head-section">Add <span class="head-span">Item</span></h2>
+	</div>
+	<div class="row d-flex justify-content-evenly">
+		<div class="form col-lg-6 col-md-8 col-sm-12">
+			<form method="post" asp-controller="Items" asp-action="AddNewItem" enctype="multipart/form-data">
+				<div asp-validation-summary="All" class="text-danger"></div>
+				<div>
+					<label asp-for="Name"></label>
+					<input type="text" asp-for="Name" class="form-control"/>
+					<span asp-validation-for="Name" class="text-danger"></span>
+				</div>
+				<div>
+					<label asp-for="Price"></label>
+					<input type="number" asp-for="Price" class="form-control" />
+					<span asp-validation-for="Price" class="text-danger"></span>
+				</div>
+				<div>
+					<label asp-for="ImageUrl"></label>
+					<input type="file" name="itemImage" id="itemImage" accept=".png, .jpg" onchange="AddImage()" class="form-control" />
+					<span asp-validation-for="ImageUrl" class="text-danger"></span>
+				</div>
+				<div class="d-flex justify-content-start">
+					<button type="submit" class="btn btn-success mt-3 me-3">Add</button>
+					<a asp-controller="Dashboard" asp-action="GetIndexView" class="btn btn-secondary mt-3 me-3">Back To List</a>
+				</div>
+			</form>
+		</div>
+		<div class="form-image col-lg-3 col-md-4 col-sm-6 mt-3">
+			<img id="img" style="width:100%;min-height:300px;" />
+		</div>
+	</div>
+</div>
+
+@section Scripts{
+	<script>
+		function AddImage(){
+			document.getElementById('img').src = window.URL.createObjectURL(document.getElementById("itemImage").files[0])
+		}
+	</script>
+}

@@ -1,0 +1,98 @@
+﻿@model IEnumerable<Item>
+
+
+<section class="products container mt-5 text-center">
+	<h2 class="head-section">Our <span class="head-span">products</span></h2>
+	@*<a asp-controller="Items" asp-action="GetCreateView" class="btn btn-success">Add New</a>*@
+	<div class="products-content row d-flex justify-content-center">
+		@foreach (var item in Model)
+		{
+			<div class="product-card p-5 m-3 col-lg-3 col-md-5 col-sm-10">
+				<div class="mb-3">
+					<img src="@item.ImageUrl" alt="@item.Name" />
+				</div>
+				<div class="product-footer d-flex justify-content-between">
+					<h5>@item.Name</h5>
+					<span>$@item.Price</span>
+				</div>
+				<div class="options">
+					<button class="btn btn-danger">Add To Cart</button>
+				</div>
+			</div>
+		}
+		
+		@*<div class="product-card p-5 m-3 col-lg-3 col-md-5 col-sm-10">
+			<div class="mb-3">
+				<img src="/images/p1.png" alt="product" />
+			</div>
+			<div class="product-footer d-flex justify-content-between">
+				<h5>Men's Shirt</h5>
+				<span>$75</span>
+			</div>
+			<div class="options">
+				<button class="btn btn-danger">Add To Cart</button>
+			</div>
+		</div>
+		<div class="product-card p-5 m-3 col-lg-3 col-md-5 col-sm-10">
+			<div class="mb-3">
+				<img src="/images/p1.png" alt="product" />
+			</div>
+			<div class="product-footer d-flex justify-content-between">
+				<h5>Men's Shirt</h5>
+				<span>$75</span>
+			</div>
+			<div class="options">
+				<button class="btn btn-danger">Add To Cart</button>
+			</div>
+		</div>
+		<div class="product-card p-5 m-3 col-lg-3 col-md-5 col-sm-10">
+			<div class="mb-3">
+				<img src="/images/p1.png" alt="product" />
+			</div>
+			<div class="product-footer d-flex justify-content-between">
+				<h5>Men's Shirt</h5>
+				<span>$75</span>
+			</div>
+			<div class="options">
+				<button class="btn btn-danger">Add To Cart</button>
+			</div>
+		</div>
+		<div class="product-card p-5 m-3 col-lg-3 col-md-5 col-sm-10">
+			<div class="mb-3">
+				<img src="/images/p1.png" alt="product" />
+			</div>
+			<div class="product-footer d-flex justify-content-between">
+				<h5>Men's Shirt</h5>
+				<span>$75</span>
+			</div>
+			<div class="options">
+				<button class="btn btn-danger">Add To Cart</button>
+			</div>
+		</div>
+		<div class="product-card p-5 m-3 col-lg-3 col-md-5 col-sm-10">
+			<div class="mb-3">
+				<img src="/images/p1.png" alt="product" />
+			</div>
+			<div class="product-footer d-flex justify-content-between">
+				<h5>Men's Shirt</h5>
+				<span>$75</span>
+			</div>
+			<div class="options">
+				<button class="btn btn-danger">Add To Cart</button>
+			</div>
+		</div>
+		<div class="product-card p-5 m-3 col-lg-3 col-md-5 col-sm-10">
+			<div class="mb-3">
+				<img src="/images/p1.png" alt="product" />
+			</div>
+			<div class="product-footer d-flex justify-content-between">
+				<h5>Men's Shirt</h5>
+				<span>$75</span>
+			</div>
+			<div class="options">
+				<button class="btn btn-danger">Add To Cart</button>
+			</div>
+		</div>*@
+
+	</div>
+</section>

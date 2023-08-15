@@ -1,0 +1,199 @@
+﻿.mr{
+    margin-right: 10px;
+}
+
+.btn{
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.btn-danger {
+    background-color: #f7444e;
+}
+.btn-danger:hover {
+    background-color: transparent;
+    border: 1px #f7444e solid;
+    color: #f7444e;
+}
+
+.head-section {
+    position: relative;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.head-section::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 5px;
+    background: #f7444e;
+    margin: 10px auto 10px;
+}
+
+.head-span {
+    color: #f7444e;
+    margin: 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 5px 20px;
+    color: #131313;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all .3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #f7444e;
+}
+
+.header{
+    background-image: url("../images/slider-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-content{
+    width: 25%;
+    margin-left: 400px;
+}
+
+.header-content h1{
+    font-size: 3.5rem;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.about-content .about-card{
+    background-color: #002c3e;
+    margin-bottom: 20px;
+    color: white;
+    padding: 60px 20px;
+    border-radius: 10px;
+}
+
+.about-content .about-card i{
+    font-size: 45px;
+}
+
+.arrivals{
+    background-color: #d4ced0;
+}
+
+.arrivals img{
+    width: 100%;
+    height: 100%;
+}
+
+.arrivals .arrivals-content{
+    display: flex;
+    align-items: center;
+}
+
+.arrivals .arrivals-content h3{
+    color: #002c3e;
+    font-size: 3.5rem;
+}
+
+.products-content .product-card {
+    background-color: #f7f8f9;
+    border-bottom: 10px solid white;
+    border-right: 10px solid white;
+    box-shadow: 5px 5px 5px -5px rgba(0,0,0,.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.products-content .product-card img{
+    max-width: 100%;
+    height: 160px;
+    transition: all .3s;
+}
+
+.products-content .product-card:hover img{
+    transform: scale(1.2);
+}
+
+.products-content .product-card .options{
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.6);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    transition: all .3s;
+}
+
+.products-content .product-card .options button{
+    margin: auto;
+}
+
+.products-content .product-card:hover .options{
+    top: 0;
+}
+
+@media screen and (max-width: 1600px) {
+    .header-content {
+        width: 40%;
+        margin-left: 200px;
+    }
+    .header-content h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header-content {
+        width: 50%;
+        margin-left: 100px;
+    }
+
+    .header-content h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .header-content {
+        width: 80%;
+        margin-left: auto;
+        text-align: center
+    }
+    .header-content h1 {
+        font-size: 3rem;
+    }
+    .about h2{
+        font-size: 2.5rem;
+    }
+    .arrivals img{
+        display: none;
+    }
+    .arrivals .arrivals-content{
+        text-align: center;
+    }
+    .arrivals .arrivals-content h3{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header-content {
+        width: 90%;
+        margin-left: auto;
+        text-align: center
+    }
+    .header-content h1 {
+        font-size: 2.5rem;
+    }
+}
