@@ -1,5 +1,7 @@
 using E_commerce.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddMvc().AddRazorRuntimeCompilation();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ConStr1")));
+
 
 var app = builder.Build();
 

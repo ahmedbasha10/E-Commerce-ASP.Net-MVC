@@ -10,6 +10,8 @@ namespace E_commerce.Data
 
 		}
         public DbSet<Item> Items { get; set; }
+		public DbSet<Cart> CartItems { get; set; }
+        
 
     }
 }

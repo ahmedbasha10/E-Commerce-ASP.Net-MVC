@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "32B76pwwJZ/l8XsGOlmLsm2tTSAafTVuuTaLX8nXdOduh5Y9lYfv6rQRNH9htLvp2wLGyD+x7K9WkW2B/xs9Lw==",
+  "dgSpecHash": "IbR5CXhBEl2h/2u4y59JXGLeIRKUnIyhM5K1Kx/xDv4pyo+gNPl8pEovVssOJ/81oNAuws/IHSrcOOzDV1dRHg==",
   "success": true,
   "projectFilePath": "D:\\ITI\\E-commerce\\E-commerce\\E-commerce.csproj",
   "expectedPackageFiles": [
@@ -80,7 +80,11 @@
     "C:\\Users\\ahmed basha\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\ahmed basha\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\ahmed basha\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\ahmed basha\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+    "C:\\Users\\ahmed basha\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\ahmed basha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.8\\microsoft.windowsdesktop.app.ref.7.0.8.nupkg.sha512",
+    "C:\\Users\\ahmed basha\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.8\\microsoft.netcore.app.ref.7.0.8.nupkg.sha512",
+    "C:\\Users\\ahmed basha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.8\\microsoft.aspnetcore.app.ref.7.0.8.nupkg.sha512",
+    "C:\\Users\\ahmed basha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.8\\microsoft.netcore.app.host.win-x64.7.0.8.nupkg.sha512"
   ],
   "logs": []
 }

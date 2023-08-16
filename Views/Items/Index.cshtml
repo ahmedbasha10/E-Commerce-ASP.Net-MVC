@@ -16,7 +16,10 @@
 					<span>$@item.Price</span>
 				</div>
 				<div class="options">
-					<button class="btn btn-danger">Add To Cart</button>
+					<form method="post" asp-controller="Cart" asp-action="AddToCart" style="width:100%;">
+						<input type="hidden" asp-for="@item.Id"/>
+						<button class="btn btn-danger" type="submit">Add To Cart</button>
+					</form>
 				</div>
 			</div>
 		}
