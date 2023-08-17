@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TnA8ZY23TvWBPbaG1nRlGNzUPyrRALUqyGux6cIBSwE=",
+  "Hash": "lMd+arIsh67pObvCek+6jL7rs6gSuvV+8pDeSdeQ8YA=",
   "Source": "E-commerce",
   "BasePath": "_content/E-commerce",
   "Mode": "Default",
@@ -37333,12 +37333,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\ITI\\E-commerce\\E-commerce\\wwwroot\\images\\03a37d7e-eb3b-4172-be07-d89606dff4d3.png",
+      "Identity": "D:\\ITI\\E-commerce\\E-commerce\\wwwroot\\images\\709ecd4c-8031-43d4-b0f5-71f62403cbff.png",
       "SourceId": "E-commerce",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ITI\\E-commerce\\E-commerce\\wwwroot\\",
       "BasePath": "_content/E-commerce",
-      "RelativePath": "images/03a37d7e-eb3b-4172-be07-d89606dff4d3.png",
+      "RelativePath": "images/709ecd4c-8031-43d4-b0f5-71f62403cbff.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -37349,15 +37349,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\03a37d7e-eb3b-4172-be07-d89606dff4d3.png"
+      "OriginalItemSpec": "wwwroot\\images\\709ecd4c-8031-43d4-b0f5-71f62403cbff.png"
     },
     {
-      "Identity": "D:\\ITI\\E-commerce\\E-commerce\\wwwroot\\images\\4bde83a8-22a6-4105-a3b5-33969eae35fc.png",
+      "Identity": "D:\\ITI\\E-commerce\\E-commerce\\wwwroot\\images\\771d58e3-a0e5-4ed6-84df-52833130858e.png",
       "SourceId": "E-commerce",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ITI\\E-commerce\\E-commerce\\wwwroot\\",
       "BasePath": "_content/E-commerce",
-      "RelativePath": "images/4bde83a8-22a6-4105-a3b5-33969eae35fc.png",
+      "RelativePath": "images/771d58e3-a0e5-4ed6-84df-52833130858e.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -37368,15 +37368,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\4bde83a8-22a6-4105-a3b5-33969eae35fc.png"
+      "OriginalItemSpec": "wwwroot\\images\\771d58e3-a0e5-4ed6-84df-52833130858e.png"
     },
     {
-      "Identity": "D:\\ITI\\E-commerce\\E-commerce\\wwwroot\\images\\8d9bcf76-5437-462c-9f67-04ff47687113.png",
+      "Identity": "D:\\ITI\\E-commerce\\E-commerce\\wwwroot\\images\\795dbf0c-44e9-468b-85af-24e69e3fb28d.png",
       "SourceId": "E-commerce",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\ITI\\E-commerce\\E-commerce\\wwwroot\\",
       "BasePath": "_content/E-commerce",
-      "RelativePath": "images/8d9bcf76-5437-462c-9f67-04ff47687113.png",
+      "RelativePath": "images/795dbf0c-44e9-468b-85af-24e69e3fb28d.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -37387,7 +37387,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\8d9bcf76-5437-462c-9f67-04ff47687113.png"
+      "OriginalItemSpec": "wwwroot\\images\\795dbf0c-44e9-468b-85af-24e69e3fb28d.png"
     },
     {
       "Identity": "D:\\ITI\\E-commerce\\E-commerce\\wwwroot\\images\\arrival-bg.png",
@@ -37407,6 +37407,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\arrival-bg.png"
+    },
+    {
+      "Identity": "D:\\ITI\\E-commerce\\E-commerce\\wwwroot\\images\\ee466e3b-4e48-49e2-8686-004fcf391b9a.png",
+      "SourceId": "E-commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ITI\\E-commerce\\E-commerce\\wwwroot\\",
+      "BasePath": "_content/E-commerce",
+      "RelativePath": "images/ee466e3b-4e48-49e2-8686-004fcf391b9a.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ee466e3b-4e48-49e2-8686-004fcf391b9a.png"
     },
     {
       "Identity": "D:\\ITI\\E-commerce\\E-commerce\\wwwroot\\images\\logo.png",

@@ -69,7 +69,14 @@ namespace E_commerce.Controllers
 		public IActionResult DecreaseQuantity(int id)
 		{
 			Cart cartItem = _context.CartItems.FirstOrDefault(x => x.Id == id);
-			cartItem.Quantity--;
+			if(cartItem.Quantity == 1)
+			{
+				DeleteCartItem(id);
+			}
+			else
+			{
+				--cartItem.Quantity;
+			}
 			_context.SaveChanges();
 			return RedirectToAction("GetIndexView");
 		}
